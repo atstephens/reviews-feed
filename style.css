@@ -1,0 +1,270 @@
+/* apply to everything */
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.yanone-kaffeesatz {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.page-body {
+  background-color: rgba(244, 231, 219, 1);
+  border: 15px solid rgba(143, 0, 0, 1);
+  margin: 0%;
+}
+h1,
+h2 {
+  font-family: "Anton SC";
+  color: whitesmoke;
+}
+p {
+  font-family: "Yanone Kaffeesatz";
+  color: rgba(143, 0, 0, 1);
+}
+ul {
+  font-family: "Yanone Kaffeesatz";
+  color: rgba(143, 0, 0, 1);
+}
+#carpet {
+  margin-top: -10%;
+  margin-bottom: -0.5%;
+  margin-left: 10%;
+}
+footer {
+  text-align: center;
+  background-color: rgba(143, 0, 0, 1);
+  margin: auto;
+  display: block;
+  padding: 20px 10% 10px 10%;
+}
+.footer-text {
+  color: black;
+  background-color: whitesmoke;
+  margin: auto;
+  display: block;
+  padding: 10px -5% 10px 10%;
+  text-align: center;
+  width: 35%;
+}
+
+/* home */
+#covergirl {
+  background-color: rgba(143, 0, 0, 1);
+  text-align: center;
+  padding: 30px 10% 30px 10%;
+  margin-top: 23%;
+}
+/* For the following div and keyframes I had to use a mix of W3Schools and Chatgpt */
+#i-like-to-move-it-move-it {
+  animation-name: myAnimation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes myAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100vw);
+  }
+}
+#sink {
+  margin-top: 28%;
+}
+#map {
+  display: grid;
+  place-items: center;
+  margin: 15%;
+  margin-top: -8%;
+}
+
+#raise1 {
+  margin-top: -8%;
+}
+.titles {
+  color: rgba(143, 0, 0, 1);
+}
+.marg {
+  margin: 15%;
+}
+/* For the following hover effect I used W3Schools */
+
+/* reviews */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 7px;
+  margin-top: -0.5%;
+}
+
+header {
+  background-color: rgba(143, 0, 0, 1);
+  margin: 0%;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -1%;
+}
+#nav2 {
+  background-color: rgba(255, 0, 0, 1);
+  padding: auto;
+}
+#nav3 {
+  background-color: rgba(101, 0, 156, 1);
+  padding: auto;
+}
+#nav4 {
+  background-color: rgba(0, 71, 169, 1);
+  padding: auto;
+}
+
+#nav5 {
+  background-color: rgba(255, 29, 249, 1);
+  padding: auto;
+}
+
+.bios {
+  margin-top: 15%;
+  color: rgba(143, 0, 0, 1);
+  text-align: left;
+}
+
+/* Help reminding myself how to do css grid and hr with W3SchoolS */
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  gap: 15px;
+}
+.container div {
+  padding: 0px;
+  text-align: center;
+  grid-column: 5;
+  margin-top: -7%;
+}
+
+.container2 {
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 0px;
+}
+.container2 div {
+  padding: 10px;
+  text-align: center;
+}
+hr.rounded {
+  border-top: 8px solid rgba(143, 0, 0, 1);
+}
+.move-image {
+  margin-top: 5%;
+  grid-column: 1;
+  margin-left: 50%;
+}
+
+#honorable {
+  background-color: rgba(143, 0, 0, 1);
+  text-align: center;
+  padding: 10px 5% 10px 2%;
+}
+
+/* I used W3Schools for scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* balboa */
+
+.balred {
+  color: rgba(255, 0, 0, 1);
+  margin-top: 15%;
+  margin-left: 25%;
+}
+#poster1 {
+  margin-left: -15%;
+  border: 10px solid rgba(255, 0, 0, 1);
+}
+#show-1 {
+  background-color: black;
+  margin: auto;
+  margin-top: 90%;
+  margin-left: 91%;
+  width: max-content;
+  position: relative;
+  padding-left: 5%;
+  padding-right: 8%;
+}
+
+/* vogue */
+.vogpurp {
+  color: rgba(101, 0, 156, 1);
+  margin-left: 30%;
+}
+#move-image-vog {
+  margin-top: 5%;
+  grid-column: 1;
+  margin-left: 100%;
+}
+#poster2 {
+  margin-left: 30%;
+  border: 10px solid rgba(101, 0, 156, 1);
+}
+#show-2 {
+  background-color: black;
+  margin: auto;
+  margin-top: 82%;
+  margin-left: 140%;
+  width: max-content;
+  position: relative;
+  padding-left: 2%;
+  padding-right: 3%;
+}
+
+/* roxie */
+.roxblue {
+  color: rgba(0, 71, 169, 1);
+}
+#move-image-rox {
+  margin-top: 5%;
+  grid-column: 1;
+  margin-left: 20%;
+}
+#rox-titlee {
+  margin-left: 15%;
+}
+#poster3 {
+  margin-left: -25%;
+  border: 10px solid rgba(0, 71, 169, 1);
+}
+#show-3 {
+  background-color: black;
+  margin: auto;
+  margin-top: 120%;
+  margin-left: 80%;
+  width: max-content;
+  position: relative;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/* peephole */
+#peep {
+  margin-top: -10%;
+  margin-bottom: 20%;
+}
+.peeppink {
+  color: rgba(255, 29, 249, 1);
+}
+#peep-titlee {
+  margin-left: 30%;
+}
